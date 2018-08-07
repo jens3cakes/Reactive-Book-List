@@ -29,7 +29,7 @@ React exercise - extendable for Redux
 |  |  input onChange setFilter  |                    |
 |  +----------------------------+                    |
 |                                                    |
-|    BookList Container                              |
+|    BookList                                        |
 |  +----------------------------------------------+  |
 |  |                                              |  |
 |  |  for each props.books: Book                  |  |
@@ -63,6 +63,7 @@ React exercise - extendable for Redux
 │   └── index.html
 └── src
     ├── components
+    │   ├── BookList.js
     │   ├── BookListItem.js
     │   ├── BookFilterInput.js
     │   └── BookListAppTitle.js
@@ -71,8 +72,6 @@ React exercise - extendable for Redux
     │   │   ├── index.js
     │   │   ├── index.test.js
     │   │   └── styles.css
-    │   ├── BookList
-    │   │   └── index.js
     │   └── NewBookForm
     │       └── index.js
     ├── index.css
